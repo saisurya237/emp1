@@ -14,7 +14,7 @@ namespace EFemp
         {
             int Flag = 1;
             int choice;
-            while (Flag == 1)
+            while (Flag == 1) // explicit loop to edit csv file till flag=1 in  case 5
             {
                 Console.WriteLine("Choose an option from the below: - \n");
                 Console.WriteLine("\n1) Insert from CSV into DATABASE \n2) Get all employee Details according to your location");
